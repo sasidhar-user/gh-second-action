@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git add .
-read a 
+echo " enter commit messgage"
+read a
 git commit -m "$a"
 git push
